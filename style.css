@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+
+    text-align: center;
+    margin-top: 3px;
+    border: 3px solid red; 
+
+}
+
+nav a{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size: 2rem
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size: 3rem
+    
+    
+}
+
+span{
+    color: yellow;
+}
+
+h4{
+    text-align: center;
+    font-size: 2rem;
+    color: yellow;
+    font-family: "Noto Sans", sans-serif,cursive; 
+}
+
+h2,p{
+    font-family: "Noto Sans", sans-serif,cursive;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.menu-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7%;
+    
+
+}
+
+.menu-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7%;
+   
+}
+
+.menu-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7%;
+    
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    border: 0.1px solid yellow
+    
+
+}
